@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 40px;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serifs;
+}
+
+div {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  gap: 5px;
+  margin-bottom: 20px;
+  border: solid;
+  padding: 10px;
+}
+
+#tabella div {
+  background-color: aqua;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: black;
+  color: aqua;
+}
